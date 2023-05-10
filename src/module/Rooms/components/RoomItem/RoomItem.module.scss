@@ -1,0 +1,14 @@
+@import "../../../../assets/styles/extends";
+
+
+.room_item {
+  list-style: none;
+
+  .container {
+    @extend %base-flex;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 300px;
+    height: 100px;
+  }
+}

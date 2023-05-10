@@ -1,0 +1,20 @@
+@import '../../../assets/styles/extends';
+
+
+.floors {
+  @extend %base-flex;
+  gap:10px;
+  list-style: none;
+  padding: 0;
+
+  li {
+    @extend %base-flex;
+    @extend %base-border;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: #000;
+    color: #FFF;
+    cursor: pointer;
+  }
+}

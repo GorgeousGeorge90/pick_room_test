@@ -1,0 +1,15 @@
+@use 'src/assets/styles/base';
+@import "src/assets/styles/extends";
+
+.app {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+  height: map-get(base.$app_width, app);
+  font-family: 'Kanit', sans-serif;
+}
+
+*{
+  margin: 0;
+}

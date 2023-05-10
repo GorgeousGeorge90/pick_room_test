@@ -1,0 +1,13 @@
+
+
+
+$app_width: (
+        app: 1100px,
+        container: 900px,
+);
+
+$app_height: (
+        app: 100vh,
+        header: 120px,
+        content: calc(100vh - header),
+)

@@ -1,0 +1,52 @@
+@import 'src/assets/styles/extends';
+
+
+
+.main {
+  @extend %base-flex;
+
+
+  .container {
+    @extend %base-flex;
+    flex-direction: column;
+    gap: 20px;
+    @extend %base-border;
+    border-color: #888888;
+    border-radius: 20px;
+    width: 350px;
+    height: 350px;
+    box-shadow: 5px 10px #888888;
+
+    hr {
+      width: 200px;
+      background-color: #000;
+      height: 2px;
+    }
+
+
+    .title {
+      font-weight: bolder;
+
+      ::first-letter {
+        color: cornflowerblue;
+        font-size: 1.5em;
+      }
+    }
+
+    .result {
+      h3 {
+        font-size: 1.2em;
+      }
+
+      span {
+        color: red;
+      }
+    }
+  }
+
+
+    .btn, .data_btn {
+      @extend %base-flex;
+      gap:10px;
+    }
+  }

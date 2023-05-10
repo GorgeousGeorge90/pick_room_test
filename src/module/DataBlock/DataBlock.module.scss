@@ -1,0 +1,46 @@
+@import 'src/assets/styles/extends';
+
+.block {
+  @extend %base-flex;
+  @extend %base-border;
+  border-radius: 20px;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 200px;
+    height: 120px;
+    padding: 20px;
+
+    .date {
+      display: flex;
+      width: 100%;
+    }
+
+    .comment {
+      @extend %base-flex;
+    }
+
+    .reserve {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+    }
+
+    .no_reserve {
+      grid-area: noreserve;
+    }
+
+    .close {
+      @extend %base-flex;
+      @extend %base-border;
+      align-self: end;
+      height: 16px;
+      width: 16px;
+      border-radius: 8px;
+      font-size: 0.7em;
+      justify-self: end;
+    }
+  }
+
+}

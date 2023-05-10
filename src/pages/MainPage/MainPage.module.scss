@@ -1,0 +1,15 @@
+@use 'src/assets/styles/base';
+@import 'src/assets/styles/extends';
+
+.main {
+  @extend %base-flex;
+  width:map-get(base.$app_width, app);
+  height: map-get(base.$app_height, content);
+
+  .container {
+    @extend %base-flex;
+    gap: 50px;
+    width: map-get(base.$app_width, container);
+    margin: 0 auto;
+  }
+}
