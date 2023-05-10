@@ -2,6 +2,7 @@
 
 .container {
     @extend %base-flex;
+    gap: 10px;
     border: 1px solid #000;
     border-radius: 5px;
     width: 200px;
@@ -16,7 +17,6 @@
     }
 
     .btn {
-        scale: 0.7;
         cursor: pointer;
     }
 }

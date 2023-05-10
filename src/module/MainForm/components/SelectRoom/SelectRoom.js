@@ -1,7 +1,7 @@
 import {useState} from "react";
 import Button from "../../../../UI/Button/Button";
-import Modal from "../../../../components/Modal/Modal";
 import Rooms from "../../../Rooms/Rooms";
+import ModalOne from "../../../../components/ModalOne/ModalOne";
 
 
 const SelectRoom = ({disabled}) => {
@@ -13,9 +13,9 @@ const SelectRoom = ({disabled}) => {
                 onClick={() => setActive(true)}
                 disabled={disabled}
         />
-        <Modal active={active} setActive={() => setActive(false)}>
+        <ModalOne active={active} setActive={() => setActive(false)}>
             <Rooms setActive={setActive}/>
-        </Modal>
+        </ModalOne>
     </>)
 }
 

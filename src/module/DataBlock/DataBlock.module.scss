@@ -3,7 +3,7 @@
 .block {
   @extend %base-flex;
   @extend %base-border;
-  border-radius: 20px;
+  border-radius: 10px;
 
   .container {
     display: flex;
@@ -20,16 +20,22 @@
 
     .comment {
       @extend %base-flex;
+      gap: 2px;
+
+      input {
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+        background-color: lightgrey;
+      }
     }
 
     .reserve {
       display: grid;
+      gap: 10px;
       grid-template-columns: repeat(2,1fr);
     }
 
-    .no_reserve {
-      grid-area: noreserve;
-    }
 
     .close {
       @extend %base-flex;
@@ -40,6 +46,7 @@
       border-radius: 8px;
       font-size: 0.7em;
       justify-self: end;
+      cursor: pointer;
     }
   }
 

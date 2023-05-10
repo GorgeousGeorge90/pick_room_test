@@ -61,6 +61,7 @@ export const MainFormStoreContextProvider = ({children}) => {
             store.finalPlace.room = null
             store.finalPlace.floor = null
             store.finalPlace.tower = null
+            roomsStore.rooms.forEach(el=> el.reserved = false)
         }
     }))
 

@@ -34,6 +34,7 @@ const MainForm = () => {
             <div className={styles.data_btn}>
                 <Button value={'GetConsole'}
                         onClick={()=>store.getFinalRoom()}
+                        disabled={store.finalPlace.room === null}
                 />
                 <Button value={'Reset'}
                         onClick={()=>store.resetReserve()}

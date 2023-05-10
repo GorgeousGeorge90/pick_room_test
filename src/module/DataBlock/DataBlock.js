@@ -31,7 +31,7 @@ const DataBlock = ({id, value, onClick})=> {
                     <DeleteCommentBtn id={id}/>
                 </div>
                 <div className={styles.reserve}>
-                    <ReserveBtn id={id} date={date} text={text}/>
+                    <ReserveBtn id={id}/>
                     <DeleteReserveBtn id={id}/>
                 </div>
             </div>
