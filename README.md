@@ -2,7 +2,7 @@
 
 ***
 
-![pic](src/assets/img/logo.png)
+![pic](https://www.clipartmax.com/png/middle/12-128743_flexible-meeting-spaces-meeting-room-logo-png.png)
 
 ***
 
@@ -28,5 +28,5 @@ It's small SPA to reserve meeting room for conference!
 ### Contacts
 
 For feedback:`Gambit47@yandex.ru`<br>
-Deployed:
+Deployed:`https://pick-room-test.vercel.app/`
 
