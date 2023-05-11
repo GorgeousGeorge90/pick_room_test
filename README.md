@@ -2,7 +2,7 @@
 
 ***
 
-![pic](https://www.clipartmax.com/png/middle/12-128743_flexible-meeting-spaces-meeting-room-logo-png.png)
+![pic](https://cdn2.bigcommerce.com/server2100/b2627/product_images/uploaded_images/cat-icon-conference-room-active.png)
 
 ***
 
